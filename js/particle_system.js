@@ -44,13 +44,13 @@ particleSystem.prototype.initMessage = function()
 {
   // this is the unicode hex of a heart
   this.str = "2764";
-  this.fontStr = "500pt Helvetica Arial, sans-serif";
+  this.fontStr = "400pt Helvetica Arial, sans-serif";
 
   this.ctx.beginPath();
   this.ctx.font = this.fontStr;
   this.ctx.textAlign = "center";
   this.ctx.fillStyle = "#ffffff";
-  this.ctx.fillText(String.fromCharCode(parseInt(this.str, 16)),this.width/2 ,this.height - 50);
+  this.ctx.fillText(String.fromCharCode(parseInt(this.str, 16)),this.width/2 ,this.height - 100);
   this.ctx.closePath();
 
   this.mask = this.ctx.getImageData(0,0,this.width,this.height);
