@@ -6,9 +6,6 @@ var particleSystem = function(cfg)
   this.canvas = document.getElementById(this.canvas_id);
   this.ctx = this.canvas.getContext("2d");
 
-  this.width = window.innerWidth;
-  this.height = window.innerHeight;
-
   this.canvas.width = this.width;
   this.canvas.height = this.height;
 
@@ -39,10 +36,13 @@ particleSystem.prototype.initCFG = function(cfg)
   this.canvas_id = cfg.canvas_id || "canvas";
   this.min_dist = cfg.min_dist || 20;
   this.particles = [];
+  this.width = cfg.width || window.innerWidth;
+  this.height = cfg.height || window.innerHeight;
 };
 
 particleSystem.prototype.initMessage = function()
 {
+  // this is the unicode hex of a heart
   this.str = "2764";
   this.fontStr = "500pt Helvetica Arial, sans-serif";
 
@@ -182,7 +182,7 @@ particleSystem.prototype.toPosY = function(i, w)
 particleSystem.prototype.repaint = function()
 {
   // clear the screen
-  this.ctx.fillStyle = "#1d1d1d";
+  this.ctx.fillStyle = "#fff";
   this.ctx.fillRect(0,0,this.width,this.height);
 };
 
