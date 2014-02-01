@@ -50,7 +50,7 @@ particleSystem.prototype.initMessage = function()
   this.ctx.font = this.fontStr;
   this.ctx.textAlign = "center";
   this.ctx.fillStyle = "#ffffff";
-  this.ctx.fillText(String.fromCharCode(parseInt(this.str, 16)),this.width/2 ,this.height - 100);
+  this.ctx.fillText(String.fromCharCode(parseInt(this.str, 16)),this.width/2 ,this.height - 50);
   this.ctx.closePath();
 
   this.mask = this.ctx.getImageData(0,0,this.width,this.height);
