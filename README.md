@@ -24,6 +24,15 @@ The system relatively straight forward to add to your page, below shows the basi
     
 That's basically it, once start is called it will begin the system.
 
+#### Particle bounds <3
+
+You'll notice the particles will keep within a heart shape, this can be overrided to use plain text or no text at all, to change the text check out the initMessage method. You'll see a this.str var which is currently set the the unicode hex 16 for a heart, change this to whatever character you want, making sure to update 
+
+    this.ctx.fillText(String.fromCharCode(parseInt(this.str, 16)),.....) -> 
+    this.ctx.fillText(this.str,.....)
+    
+if plain text.
+
 #### Config options
 
 The system comes with a number of options that you can pass through to suit it to your needs.
