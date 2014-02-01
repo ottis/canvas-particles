@@ -1,6 +1,8 @@
 canvas-particles
 ================
 
+[![solarized dualmode](https://raw2.github.com/ottis/canvas-particles/master/screens/screen.jpg)](#features)
+
 A simple particle system using html5 canvas written in straight JS. It's pretty basic at the moment but give's you the flexibility to add more effects.
 
 ### Basic Usage
