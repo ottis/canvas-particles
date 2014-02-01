@@ -5,6 +5,8 @@ canvas-particles
 
 A simple particle system using html5 canvas written in straight JS. It's pretty basic at the moment but give's you the flexibility to add more effects.
 
+Demo can be found here: http://codepen.io/cheeriottis/full/CDycu
+
 ### Basic Usage
 
 The system relatively straight forward to add to your page, below shows the basics.
