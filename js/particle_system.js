@@ -182,7 +182,7 @@ particleSystem.prototype.toPosY = function(i, w)
 particleSystem.prototype.repaint = function()
 {
   // clear the screen
-  this.ctx.fillStyle = "#fff";
+  this.ctx.fillStyle = "#1d1d1d";
   this.ctx.fillRect(0,0,this.width,this.height);
 };
 

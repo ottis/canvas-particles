@@ -9,7 +9,7 @@ var particle = function(cfg,ctx)
   this.vy  = cfg.vy || 1;
 
   this.radius = cfg.radius || 1;
-  this.color = cfg.color || '#fff';
+  this.color = cfg.color || '#1d1d1d';
 };
 
 particle.prototype.draw = function()
