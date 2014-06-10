@@ -9,7 +9,7 @@ Demo can be found here: http://codepen.io/cheeriottis/full/CDycu
 
 ### Basic Usage
 
-The system relatively straight forward to add to your page, below shows the basics.
+The system is relatively straight forward to add to your page, below shows the basics.
 
 #### DOM
     <head>
@@ -26,7 +26,7 @@ The system relatively straight forward to add to your page, below shows the basi
     </script>
     </body>
     
-That's basically it, once start is called it will begin the system.
+Once start is called it will begin animating the system.
 
 #### Particle bounds <3
 
